@@ -1,0 +1,44 @@
+.section {
+    background-image: url('./image/H8-11.png');
+    height: 604px;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: #1A3E91;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.copy {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+    width: 280px;
+    margin: auto;
+    margin-right: 128px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    background-image: url('./image/thai-iqf.png');
+    background-color: aquamarine;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: border-radius 0.1s ease;
+}
+
+.image:hover {
+    border-radius: 15%;
+}
+
+
