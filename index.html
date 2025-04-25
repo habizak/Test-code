@@ -15,6 +15,22 @@
         </div>
 
         <div class="image"></div>
+
+        <h1 id="typewriter"></h1>
+
+        <script>
+            const text = "Welcome to Air Koteh Industries.";
+            let index = 0;
+
+            function type() {
+            if (index < text.length) {
+                document.querySelector("#typewriter").textContent += text[index];
+                index++;
+                setTimeout(type, 70); // typing speed
+            }
+            }
+            type();
+        </script>
     </body>
 </main>
 </html>
